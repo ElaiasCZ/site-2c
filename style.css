@@ -44,9 +44,7 @@
     
  }
  .escola{
-    background-image: linear-gradient(#4B4B4B;#4b4b4b); /*define um gradiente linear como a imagem de fundo, 
-    deve definir pelo menos duas paradas de cor */
-    color: #4B4B4B; /*cor*/
+    background-color: #4B4B4B; /*cor*/
     display: flex; /*organizar a estrutura do nosso conteúdo*/
     justify-content: center; /*alinha imagem e os textos com espaçamentos entre eles*/
     padding: 24px 0; /*Altera o espaçamento interno*/
@@ -61,15 +59,20 @@
     segundo valor bordas horizontais(esquerda e direita)*/
     font-size: 25px;/*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+    color: #AFAFAF;
 }
 
 .escola-texto{
     font-size: 20px;/*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+    color: #AFAFAF;
+    justify-content: center;
+
 }
 
 .imagem-escola{
-     width: 30%; /*largura*/
+     width: 40%; /*largura*/
      height: 300px;/*altura*/
-     border-radius: 82px; /*para definir bordas arredondadas da imagem*/
+     border-radius: 60px; /*para definir bordas arredondadas da imagem*/
+     justify-content: center;
     }

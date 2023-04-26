@@ -76,3 +76,58 @@
      border-radius: 60px; /*para definir bordas arredondadas da imagem*/
      justify-content: center;
     }
+
+    #estudante{
+        background-color: #4B4B4B; /*cor de fundo*/
+        color: #AFAFAF; /*cor*/
+    }
+    .estudante-titulo{
+        padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+        segundo valor bordas horizontais(esquerda e direita)*/
+        margin: 0 120px; /* alinhar o espaçamento */
+        font-size: 25px;/*tamanho da fonte*/
+        font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+    }
+    
+    p{
+        padding: 0 120px; /* alinhar o espaçamento */
+        font-size: 20px;/*tamanho da fonte*/
+        font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+     }
+    
+     .estudantes-todos{
+        display: grid; /* especificar o espaçamento do grid(organizar por colunas) */
+        grid-template-columns: 25% 25% 25% 25%; 
+        padding: 0 60px; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+        segundo valor bordas horizontais(esquerda e direita)*/
+    }
+    
+    .estudante-div{
+        text-align: center;/*texto centralizado*/  
+        padding: 12px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+        segundo valor bordas horizontais(esquerda e direita)*/
+    }
+    
+    .estudante-imagem{
+        width: 120px;  /*largura*/
+    }
+    
+    .estudante-nome{
+        font-size: 14px;/*tamanho da fonte*/    
+    }
+    
+    .estudante-icone{
+        width: 24px;  /*largura*/
+        padding: 4px 8px;/*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
+        segundo valor bordas horizontais(esquerda e direita)*/
+    }
+    .rodape{
+        background-image: linear-gradient(180deg, rgba(87, 87, 87, 0) 90.94% #020202 -3.73%,);
+    }
+    
+    .copyright{
+            text-align: center;/*texto centralizado*/ 
+            height: 100px;/*altura*/
+            line-height: 100px;   /*altura da linha*/     
+            font-size: 12px;/*tamanho da fonte*/ 
+    }
